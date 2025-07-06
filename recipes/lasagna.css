@@ -12,12 +12,24 @@ html {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-* {
+/* * {
   outline: 2px solid red;
+} */
+
+h1,
+h2 {
+    text-align: center;
 }
 
-h1 {
+p {
     text-align: center;
-    padding: 10px;
-    margin: 10px;
+}
+
+ul {
+    display: inline-block;
+}
+
+img {
+    display: block;
+    margin: auto;
 }
