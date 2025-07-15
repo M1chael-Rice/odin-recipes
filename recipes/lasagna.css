@@ -19,6 +19,15 @@ html {
     /* background-color: rgb(255, 252, 232); */
 }
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: black;
+    opacity: 50%;
+    text-decoration: none;
+}
+
 body {
     background-color: rgb(255, 252, 232);
 }
@@ -62,8 +71,18 @@ h2 {
     text-align: center;
 }
 
-.intro {
+.intro,
+.method,
+.return {
+    list-style-position: inside;
     text-align: center;
     margin: auto 70px;
     padding: 10px
+}
+
+.Ingredients {
+    /* list-style-type: none; */
+    list-style-position: inside;
+    column-count: 2;
+    text-align: center;
 }
